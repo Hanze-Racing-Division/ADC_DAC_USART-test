@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"adc_dac_usart\stm32l1xx_hal_dac_ex.o"
+"adc_dac_usart\stm32l1xx_hal_tim.o"
+"adc_dac_usart\stm32l1xx_hal.o"
+"adc_dac_usart\stm32l1xx_hal_adc.o"
+"adc_dac_usart\stm32l1xx_hal_tim_ex.o"
+"adc_dac_usart\stm32l1xx_hal_adc_ex.o"
+"adc_dac_usart\stm32l1xx_hal_pwr_ex.o"
+"adc_dac_usart\stm32l1xx_hal_uart.o"
+"adc_dac_usart\stm32l1xx_hal_cortex.o"
+"adc_dac_usart\stm32l1xx_hal_rcc_ex.o"
+"adc_dac_usart\stm32l1xx_hal_dma.o"
+"adc_dac_usart\stm32l1xx_hal_flash_ex.o"
+"adc_dac_usart\stm32l1xx_hal_rcc.o"
+"adc_dac_usart\stm32l1xx_hal_flash_ramfunc.o"
+"adc_dac_usart\stm32l1xx_hal_gpio.o"
+"adc_dac_usart\stm32l1xx_hal_dac.o"
+"adc_dac_usart\stm32l1xx_hal_flash.o"
+"adc_dac_usart\stm32l1xx_hal_pwr.o"
+"adc_dac_usart\system_stm32l1xx.o"
+"adc_dac_usart\stm32l1xx_hal_msp.o"
+"adc_dac_usart\stm32l1xx_it.o"
+"adc_dac_usart\main.o"
+"adc_dac_usart\startup_stm32l152xb.o"
+--library_type=microlib --strict --scatter "ADC_DAC_USART\ADC_DAC_USART.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_DAC_USART.map" -o ADC_DAC_USART\ADC_DAC_USART.axf

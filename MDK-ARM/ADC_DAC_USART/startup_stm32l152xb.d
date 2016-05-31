@@ -1,0 +1,1 @@
+adc_dac_usart\startup_stm32l152xb.o: startup_stm32l152xb.s
